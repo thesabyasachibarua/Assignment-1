@@ -1,3 +1,4 @@
+
 .head-part{
     background-image: url('../Assets/Hero-bg.png');
     background-repeat: no-repeat;
@@ -112,4 +113,91 @@ main{
     border: none;
     border-radius: 10px;
     color: white;
+}
+/* 3rd section style */
+.third-section{
+      background-color: #4E47FF1A;
+    padding: 50px 80px;
+    border-radius: 24px;
+    margin-bottom: 116px;
+}
+.third-section h2{
+    font-size: 38px;
+    font-weight: 700;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.th-head{
+    display: flex;
+    justify-content: space-between;
+}
+
+.th-heading h1{
+    color: #4E47FF;
+    font-size: 80px;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+
+.th-heading p{
+  color:  rgba(0, 0, 0, 0.50);
+  font-size: 20px;
+  font-weight: 400px;
+}
+
+/* get in touch */
+
+.get-in-touch{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 116px;
+}
+
+.get-descrip{
+    width: 528px;
+}
+
+.get-descrip h1{
+    font-size: 97px;
+    font-weight: 700;
+}
+
+.form-get form{
+    font-size: 18px;
+    font-weight: 500;
+    color: #000;
+}
+.form-get button{
+      height: 48px;
+    padding: 17px 101px;
+    background-color:#4E47FF;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    
+}
+
+.form-get input[type=text]{
+    padding: 20px 32px;
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #D6DDED;
+}
+.form-get input[type=email]{
+    padding: 20px 32px;
+    width: 100%;
+    border-radius: 10px;
+     margin-bottom: 10px;
+     border: 1px solid #D6DDED;
+    
+}
+
+.form-get textarea{
+    padding: 20px 32px;
+    width: 100%;
+    border-radius: 10px;
+     margin-bottom: 10px;
+     border: 1px solid #D6DDED;
 }

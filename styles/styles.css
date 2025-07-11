@@ -73,3 +73,43 @@ nav button{
     margin-top: 25px;
     margin-bottom: 150px;
 }
+
+/* main part */
+
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.second-part{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 116px;
+    margin-bottom: 116px;
+}
+
+.second-img img{
+    border-radius: 48px;
+}
+
+.second-written-part{
+    width: 517px;
+}
+.second-written-part h2{
+    font-size: 42px;
+
+}
+.second-written-part p{
+    color: rgba(37, 36, 50, 0.50);
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.second-written-part button{
+        height: 48px;
+    padding: 12px 36px;
+    background-color:#4E47FF;
+    border: none;
+    border-radius: 10px;
+    color: white;
+}

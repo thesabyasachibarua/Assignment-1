@@ -39,6 +39,10 @@ nav button{
     color: white;
 }
 
+nav button:hover{
+    background-color: #7671f3;
+}
+
 /* banner styles */
 
 .open-sans-2nd-normal {
@@ -52,6 +56,7 @@ nav button{
 .hero-section{
 
     margin: 158px 300px 150px;
+    background: transparent;
 
 }
 
@@ -60,6 +65,7 @@ nav button{
      color: #252432; 
      font-size: 65px;
      text-align: center;
+     background: transparent;
 
 }
 
@@ -136,11 +142,13 @@ main{
     font-weight: 700;
     margin-bottom: 40px;
     text-align: center;
+    background: transparent;
 }
 
 .th-head{
     display: flex;
     justify-content: space-between;
+
 }
 
 .th-heading h1{
@@ -148,6 +156,7 @@ main{
     font-size: 80px;
     font-weight: 700;
     margin-bottom: 0;
+    
 }
 
 .th-heading p{

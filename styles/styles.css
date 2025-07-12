@@ -6,7 +6,6 @@
     background-repeat: no-repeat;
     /* background-position: bottom right; */
     background-size: cover;
-    height:
 }
 
 
@@ -80,10 +79,6 @@ nav button:hover{
     border: none;
     border-radius: 10px;
     color: white;
-    /* margin-right: 450px;
-    margin-left: 450px;
-    margin-top: 25px;
-    margin-bottom: 150px; */
     margin-bottom: 160px;
 }
 
@@ -94,7 +89,8 @@ nav button:hover{
 /* main part */
 
 main{
-    max-width: 1140px;
+    /* max-width: 1140px; */
+    max-width: 80%;
     margin: 0 auto;
 }
 
@@ -192,61 +188,75 @@ main{
 .get-in-touch{
     display: flex;
     justify-content: space-between;
-    margin-bottom: 116px;
-}
-
-.get-descrip{
-    width: 528px;
+    align-items: center;
+    padding: 70px 0;
 }
 
 .get-descrip h1{
     font-size: 97px;
     font-weight: 700;
+    width: 550px;
+    /* border: 2px solid; */
+    margin: 0;
 }
-
-.form-get form{
+.form-get{
+    width: 450px;
+    color: #000;
     font-size: 18px;
     font-weight: 500;
-    color: #000;
+
 }
-.form-get button{
-      height: 48px;
-    padding: 17px 101px;
-    background-color:#4E47FF;
-    border: none;
-    border-radius: 10px;
-    color: white;
-    
-}
+
 .form-get button:hover{
     background-color: #7671f3;
 }
 
-.form-get input[type=text]{
-    padding: 20px 32px;
-    width: 100%;
-    border-radius: 10px;
-    margin-bottom: 10px;
-    border: 1px solid #D6DDED;
-       background-color: white;
-}
 .form-get input[type=email]{
-    padding: 20px 32px;
-    width: 100%;
+    padding: 0 5%;
+    width: 90%;
     border-radius: 10px;
-     margin-bottom: 10px;
+     margin: 10px 0;
      border: 1px solid #D6DDED;
         background-color: white;
+        height: 70px;  
+}
+
+.form-get input[type=text]{
+    padding: 0 5%;
+    width: 90%;
+    border-radius: 10px;
+    margin: 10px 0;
+    border: 1px solid #D6DDED;
+       background-color: white;
+       height: 70px;
+}
+
+
+.form-get textarea{
+    padding: 5%;
+    width: 90%;
+    border-radius: 10px;
+  margin: 10px 0;
+     border: 1px solid #D6DDED;
+        background-color: white;
+        height: 135px;
+}
+
+.form-get button{
+      height: 48px;
+    background-color:#4E47FF;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    width: 100%;
+    font-size: 16px;
+    font-weight: 700;
     
 }
 
-.form-get textarea{
-    padding: 20px 32px;
-    width: 100%;
-    border-radius: 10px;
-     margin-bottom: 10px;
-     border: 1px solid #D6DDED;
-        background-color: white;
+.form-get label{
+    font-size: 18px;
+    font-weight: 600;
 }
 
 /* card section */
@@ -272,6 +282,7 @@ main{
     width:310px;
     margin-bottom: 116px;
     padding: 20px;
+    padding-right: 50px;
     box-shadow: 7px 9px 12px #4E47FF1A;
 }
 .card-star{
@@ -316,10 +327,6 @@ main{
     background-color: white;
 }
 
-,.three-cards{
-
-}
-
 /* fourth section */
 
 .fourth-section{
@@ -354,11 +361,10 @@ main{
     border: none;
     border-radius: 10px;
     color: white;
-    /* margin: 20px 470px; */
-    /* margin-top: 10px;
-    margin-bottom: 35px; */
     margin-top: 0;
     margin-bottom: 20px;
+    font-size: 16px;
+    font-weight: 500;
 }
 .fourth-section button:hover{
     background-color: #7671f3;

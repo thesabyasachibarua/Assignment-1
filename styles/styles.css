@@ -1,11 +1,12 @@
-/* *{
+*{
     background-color: #F5F8FF;
-} */
+}
 .head-part{
     background-image: url('../Assets/Hero-bg.png');
     background-repeat: no-repeat;
     /* background-position: bottom right; */
     background-size: cover;
+    height:
 }
 
 
@@ -27,6 +28,7 @@ nav li{
     justify-content: space-between;
     align-items: center;
     margin: 50px 150px;
+    background-color: transparent;
 }
 
 nav button{
@@ -57,6 +59,7 @@ nav button:hover{
 
     margin: 158px 300px 150px;
     background: transparent;
+    text-align: center;
 
 }
 
@@ -64,7 +67,7 @@ nav button:hover{
 
      color: #252432; 
      font-size: 65px;
-     text-align: center;
+     /* text-align: center; */
      background: transparent;
 
 }
@@ -72,15 +75,16 @@ nav button:hover{
 .hero-section button{
 
     height: 48px;
-    padding: 12px 36px;
+    padding: 12px 70px;
     background-color:#4E47FF;
     border: none;
     border-radius: 10px;
     color: white;
-    margin-right: 450px;
+    /* margin-right: 450px;
     margin-left: 450px;
     margin-top: 25px;
-    margin-bottom: 150px;
+    margin-bottom: 150px; */
+    margin-bottom: 160px;
 }
 
 .hero-section button:hover{
@@ -97,6 +101,7 @@ main{
 .second-part{
     display: flex;
     justify-content: space-between;
+    align-items: center;
     margin-top: 116px;
     margin-bottom: 116px;
 }
@@ -110,12 +115,14 @@ main{
 }
 .second-written-part h2{
     font-size: 42px;
+    margin: 0;
 
 }
 .second-written-part p{
     color: rgba(37, 36, 50, 0.50);
     font-size: 24px;
     font-weight: 400;
+    margin:23px 0;
 }
 
 .second-written-part button{
@@ -140,7 +147,8 @@ main{
 .third-section h2{
     font-size: 38px;
     font-weight: 700;
-    margin-bottom: 40px;
+    margin-bottom: 30px;
+    margin-top: 0px;
     text-align: center;
     background: transparent;
 }
@@ -148,6 +156,7 @@ main{
 .th-head{
     display: flex;
     justify-content: space-between;
+    background: transparent;
 
 }
 
@@ -156,13 +165,26 @@ main{
     font-size: 80px;
     font-weight: 700;
     margin-bottom: 0;
+    margin-top: 0px;
+    background-color: #4E47FF1A;
     
 }
+
+/* .bigger-para{
+    color: #4E47FF;
+    font-size: 80px;
+    font-weight: 700;
+    margin-bottom: 0;
+} */
+
 
 .th-heading p{
   color:  rgba(0, 0, 0, 0.50);
   font-size: 20px;
   font-weight: 400px;
+  margin: 0px;
+  text-align: center;
+  background-color: #4E47FF1A;
 }
 
 /* get in touch */
@@ -206,6 +228,7 @@ main{
     border-radius: 10px;
     margin-bottom: 10px;
     border: 1px solid #D6DDED;
+       background-color: white;
 }
 .form-get input[type=email]{
     padding: 20px 32px;
@@ -213,6 +236,7 @@ main{
     border-radius: 10px;
      margin-bottom: 10px;
      border: 1px solid #D6DDED;
+        background-color: white;
     
 }
 
@@ -222,6 +246,78 @@ main{
     border-radius: 10px;
      margin-bottom: 10px;
      border: 1px solid #D6DDED;
+        background-color: white;
+}
+
+/* card section */
+
+.challenge-part h2{
+    text-align: center;
+    font-size: 42px;
+    font-weight: 700;
+}
+.three-cards{
+    display: flex;
+    justify-content: space-between;
+     font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+
+}
+.card-section{
+    border-radius: 14px;
+    background-color: white;
+    width:310px;
+    margin-bottom: 116px;
+    padding: 20px;
+    box-shadow: 7px 9px 12px #4E47FF1A;
+}
+.card-star{
+    background-color: white;
+    margin: 10px 0;
+    margin-bottom: 40px;
+}
+.card-star img{
+    background-color: white;
+}
+.card{
+    background-color: white;
+}
+.card h3{
+    background-color: white;
+    margin: 0;
+}
+.card p{
+    background-color: white;
+    margin: 10px 0;
+}
+.card-profile{
+    display: flex; 
+    background-color: white;  
+}
+
+.card-dis{
+    background-color: white;
+}
+.card-dis p{
+    margin: 0;
+    margin: 9px 15px;
+
+}
+
+.card-profile img{
+    width: 80px;
+    border-radius: 50%;
+    background-color: white;
+}
+.card-profile p{
+    background-color: white;
+}
+
+,.three-cards{
+
 }
 
 /* fourth section */
@@ -230,17 +326,25 @@ main{
     margin-bottom: 116px;
     background: white;
     border-radius: 14px;
+    text-align: center;
+    padding: 71px 150px;
 }
 
 .fourth-section h2{
     font-size: 50px;
     font-weight: 700;
-    text-align: center;
+    /* text-align: center; */
+    margin: 0px;
+    margin-bottom: 20px;
+    background: white;
 }
 
 .fourth-section p{
     color: #00000080;
-    text-align: center;
+    /* text-align: center; */
+    margin: 0;
+    margin-bottom: 20px;
+    background: white;
 }
 
 .fourth-section button{
@@ -250,7 +354,11 @@ main{
     border: none;
     border-radius: 10px;
     color: white;
-    margin: 20px 470px;
+    /* margin: 20px 470px; */
+    /* margin-top: 10px;
+    margin-bottom: 35px; */
+    margin-top: 0;
+    margin-bottom: 20px;
 }
 .fourth-section button:hover{
     background-color: #7671f3;
@@ -259,19 +367,15 @@ main{
 .fourth-section img{
     height: 365.773px;
     border-radius: 48px;
-    margin: 0 140px;
+    /* margin: 0 140px; */
 }
-
-.fr-cen{
-    margin: 0 auto;
-}
-
 
 
 
 /* footer section */
 .footer-section{
-    padding: 104px 455px;
+    padding: 104px 500px;
+       background-color: white;
 }
 
 .footer-section h1{
@@ -279,20 +383,29 @@ main{
     color: #4E47FF;
     font-size: 100px;
     font-weight: 900;
+       background-color: white;
+       margin: 0;
 }
 .footer-section p{
     text-align: center;
     color: #8987A1;
     font-size: 16px;
     font-weight: 400;
+       background-color: white;
+       margin: 0;
 }
 
 .footer-section ul{
     display: flex;
     justify-content: space-around;
+       background-color: white;
+       margin: 0;
+       margin: 20px 0;
 }
 .footer-section ul li{
     list-style: none;
+       background-color: white;
+       margin: 0;
 }
 
 .footer-section ul li a{
@@ -300,4 +413,5 @@ main{
     color: #8987A1;
     font-size: 16px;
     font-weight: 400;
+       background-color: white;
 }
